@@ -1,0 +1,17 @@
+*.hdf5
+*.h5
+__pycache__/
+*.xml
+data/
+*.png
+*.dot
+.vscode
+results/
+slurm*.out
+coverage/
+*.so
+*.o
+venv/
+venv*/
+build/
+src/PyHashOCNT.cpp
