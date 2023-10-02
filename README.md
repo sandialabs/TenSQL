@@ -93,6 +93,9 @@ bash single_ingest_and_named_edges.sh "`pwd`/tmp" "`pwd`/results" all
 Note: You will likely need to tune the settings in `postgresql.conf` if your
 system has less memory than our benchmarking system.
 
+Note: Running some benchmarks requires a very large amount of memory (hundreds
+of gigabytes).  
+
 ## Citing TenSQL
 TenSQL was described in the paper "An SQL Database Built on GraphBLAS", which
 was accepeted by the IEEE High Performance Extreme Computing Virtual Conference
